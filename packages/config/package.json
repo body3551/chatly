@@ -1,0 +1,17 @@
+{
+  "name": "@typebot.io/config",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": "./src/*.ts"
+  },
+  "dependencies": {
+    "@effect-aws/s3": "^0.2.5",
+    "effect": "^3.19.14"
+  },
+  "devDependencies": {
+    "@typebot.io/tsconfig": "workspace:*"
+  }
+}
